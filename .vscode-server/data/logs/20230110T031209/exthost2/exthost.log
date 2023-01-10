@@ -1,0 +1,46 @@
+2023-01-10 03:25:25.060 [info] Extension host with pid 26416 started
+2023-01-10 03:25:25.102 [info] Lock '/home/thomasxucpa/.vscode-server/data/User/workspaceStorage/9a8057275842c33f88a86d02417a56c7/vscode.lock': Lock acquired.
+2023-01-10 03:25:25.240 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2023-01-10 03:25:25.242 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-10 03:25:25.561 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-01-10 03:25:25.562 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-10 03:25:26.425 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-10 03:25:26.426 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-10 03:25:26.427 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-10 03:25:26.427 [info] Eager extensions activated
+2023-01-10 03:25:26.936 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-10 03:25:26.937 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-10 03:25:26.939 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-10 04:20:32.695 [error] [golang.go] provider FAILED
+2023-01-10 04:20:32.729 [error] Error: context canceled
+	at handleResponse (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:466:21)
+2023-01-10 04:44:57.810 [error] [golang.go] provider FAILED
+2023-01-10 04:44:57.810 [error] Error: no identifier found
+	at handleResponse (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:466:21)
+2023-01-10 04:44:58.066 [error] [golang.go] provider FAILED
+2023-01-10 04:44:58.066 [error] Error: no identifier found
+	at handleResponse (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:466:21)
+2023-01-10 04:45:00.592 [error] [golang.go] provider FAILED
+2023-01-10 04:45:00.592 [error] Error: no identifier found
+	at handleResponse (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:466:21)
+2023-01-10 04:46:49.967 [error] [golang.go] provider FAILED
+2023-01-10 04:46:49.967 [error] Error: package does not import github.com/gorilla/mux
+	at handleResponse (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:466:21)
+2023-01-10 04:47:12.009 [info] Extension host terminating: received terminate message from renderer
+2023-01-10 04:47:12.012 [info] Lock '/home/thomasxucpa/.vscode-server/data/User/workspaceStorage/9a8057275842c33f88a86d02417a56c7/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-01-10 04:47:12.101 [info] Extension host with pid 26416 exiting with code 0

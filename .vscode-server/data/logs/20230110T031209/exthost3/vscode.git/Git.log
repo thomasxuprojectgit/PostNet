@@ -1,0 +1,133 @@
+2023-01-10 04:47:26.835 [info] Log level: Info
+2023-01-10 04:47:26.835 [info] Validating found git in: "git"
+2023-01-10 04:47:26.835 [info] Using git "2.17.1" from "git"
+2023-01-10 04:47:26.835 [info] > git rev-parse --show-toplevel [9ms]
+2023-01-10 04:47:26.835 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 04:47:26.835 [info] > git rev-parse --show-toplevel [12ms]
+2023-01-10 04:47:26.835 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 04:47:26.835 [info] > git rev-parse --show-toplevel [43ms]
+2023-01-10 04:47:26.835 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 04:47:26.835 [info] > git rev-parse --show-toplevel [14ms]
+2023-01-10 04:47:26.835 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 04:47:26.835 [info] > git rev-parse --show-toplevel [4ms]
+2023-01-10 04:47:26.835 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 04:47:26.835 [info] > git rev-parse --show-toplevel [4ms]
+2023-01-10 04:47:26.835 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 04:47:26.835 [info] > git rev-parse --show-toplevel [2ms]
+2023-01-10 04:47:26.835 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 04:47:26.835 [info] > git rev-parse --show-toplevel [10ms]
+2023-01-10 04:47:26.835 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 04:47:26.835 [info] > git rev-parse --show-toplevel [5ms]
+2023-01-10 04:47:26.835 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 04:48:19.349 [info] > git rev-parse --show-toplevel [19ms]
+2023-01-10 04:48:19.349 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 04:50:40.543 [info] > git rev-parse --show-toplevel [13ms]
+2023-01-10 04:50:40.544 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 04:51:00.309 [info] > git rev-parse --show-toplevel [10ms]
+2023-01-10 04:51:00.310 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 04:51:00.755 [info] > git rev-parse --show-toplevel [13ms]
+2023-01-10 04:51:00.755 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 04:51:10.857 [info] > git rev-parse --show-toplevel [11ms]
+2023-01-10 04:51:10.857 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 04:52:39.422 [info] > git rev-parse --show-toplevel [13ms]
+2023-01-10 04:52:39.422 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 04:52:48.703 [info] > git rev-parse --show-toplevel [11ms]
+2023-01-10 04:52:48.703 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 05:12:30.471 [info] > git init [28ms]
+2023-01-10 05:12:31.102 [info] > git rev-parse --show-toplevel [0ms]
+2023-01-10 05:12:31.109 [info] > git rev-parse --git-dir --git-common-dir [0ms]
+2023-01-10 05:12:31.123 [info] Open repository: /home/thomasxucpa
+2023-01-10 05:12:31.148 [warning] No remotes found in the git config file.
+2023-01-10 05:12:31.149 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2023-01-10 05:12:31.150 [info] > git config --get commit.template [17ms]
+2023-01-10 05:12:31.150 [info] > git remote --verbose [2ms]
+2023-01-10 05:12:31.168 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2023-01-10 05:12:31.344 [info] > git status -z -uall [187ms] (cancelled)
+2023-01-10 05:12:31.663 [info] > git show --textconv :go/src/around/handler/router.go [33ms]
+2023-01-10 05:12:31.663 [info] > git show --textconv :go/src/around/main.go [27ms]
+2023-01-10 05:12:31.663 [info] > git show --textconv :go/src/around/handler/post.go [20ms]
+2023-01-10 05:12:31.663 [info] > git ls-files --stage -- /home/thomasxucpa/go/src/around/handler/post.go [2ms]
+2023-01-10 05:12:31.664 [info] > git ls-files --stage -- /home/thomasxucpa/go/src/around/main.go [9ms]
+2023-01-10 05:12:31.665 [info] > git ls-files --stage -- /home/thomasxucpa/go/src/around/handler/router.go [16ms]
+2023-01-10 05:12:31.859 [info] > git check-ignore -v -z --stdin [2ms]
+2023-01-10 05:12:43.874 [info] > git config --get commit.template [45ms]
+2023-01-10 05:12:43.929 [warning] No remotes found in the git config file.
+2023-01-10 05:12:43.965 [info] > git remote --verbose [36ms]
+2023-01-10 05:12:43.966 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [46ms]
+2023-01-10 05:12:43.994 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+2023-01-10 05:12:45.729 [info] > git status -z -uall [1753ms] (cancelled)
+2023-01-10 05:12:46.297 [info] > git check-ignore -v -z --stdin [2ms]
+2023-01-10 05:12:47.269 [info] > git check-ignore -v -z --stdin [1ms]
+2023-01-10 05:12:48.211 [info] > git check-ignore -v -z --stdin [1ms]
+2023-01-10 05:13:38.218 [info] > git add -A -- . [21681ms]
+2023-01-10 05:13:38.868 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [637ms]
+2023-01-10 05:13:38.869 [info] 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2023-01-10 05:13:38.893 [info] > git config --get-all user.name [5ms]
+2023-01-10 05:13:45.938 [info] > git ls-files --stage -- /home/thomasxucpa/go/src/around/main.go [54ms]
+2023-01-10 05:13:45.964 [info] > git ls-files --stage -- /home/thomasxucpa/go/src/around/handler/router.go [101ms]
+2023-01-10 05:13:46.003 [info] > git cat-file -s a8140b98026ebae1c84e30a389ee12927c717fef [42ms]
+2023-01-10 05:13:46.016 [info] > git cat-file -s 297b9b564ca5e0e40044c5d5c9e84654f2661c32 [17ms]
+2023-01-10 05:13:46.017 [info] > git ls-files --stage -- /home/thomasxucpa/go/src/around/handler/post.go [107ms]
+2023-01-10 05:13:46.046 [info] > git cat-file -s c3a1b08780804681d8d323ce18720a5044273a75 [11ms]
+2023-01-10 05:13:46.129 [info] > git show --textconv :go/src/around/main.go [45ms]
+2023-01-10 05:13:46.190 [info] > git show --textconv :go/src/around/handler/router.go [64ms]
+2023-01-10 05:13:46.237 [info] > git show --textconv :go/src/around/handler/post.go [51ms]
+2023-01-10 05:14:01.415 [info] > git add -A -- . [175ms]
+2023-01-10 05:14:01.520 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [94ms]
+2023-01-10 05:14:01.520 [info] 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2023-01-10 05:14:01.547 [info] > git config --get-all user.name [19ms]
+2023-01-10 05:14:03.975 [info] > git add -A -- . [152ms]
+2023-01-10 05:14:04.058 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [69ms]
+2023-01-10 05:14:04.058 [info] 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2023-01-10 05:14:04.069 [info] > git config --get-all user.name [1ms]
+2023-01-10 05:14:04.175 [info] > git ls-files --stage -- /home/thomasxucpa/go/src/around/main.go [14ms]
+2023-01-10 05:14:04.182 [info] > git ls-files --stage -- /home/thomasxucpa/go/src/around/handler/router.go [29ms]
+2023-01-10 05:14:04.190 [info] > git cat-file -s 297b9b564ca5e0e40044c5d5c9e84654f2661c32 [1ms]
+2023-01-10 05:14:04.190 [info] > git cat-file -s a8140b98026ebae1c84e30a389ee12927c717fef [9ms]
+2023-01-10 05:14:04.191 [info] > git ls-files --stage -- /home/thomasxucpa/go/src/around/handler/post.go [20ms]
+2023-01-10 05:14:04.200 [info] > git cat-file -s c3a1b08780804681d8d323ce18720a5044273a75 [3ms]
+2023-01-10 05:14:04.680 [info] > git show --textconv :go/src/around/handler/router.go [11ms]
+2023-01-10 05:14:04.698 [info] > git show --textconv :go/src/around/main.go [18ms]
+2023-01-10 05:14:04.698 [info] > git show --textconv :go/src/around/handler/post.go [2ms]
+2023-01-10 05:14:09.161 [info] > git ls-files --stage -- /home/thomasxucpa/go/src/around/handler/router.go [17ms]
+2023-01-10 05:14:09.171 [info] > git cat-file -s 297b9b564ca5e0e40044c5d5c9e84654f2661c32 [1ms]
+2023-01-10 05:14:09.172 [info] > git ls-files --stage -- /home/thomasxucpa/go/src/around/main.go [19ms]
+2023-01-10 05:14:09.180 [info] > git cat-file -s a8140b98026ebae1c84e30a389ee12927c717fef [1ms]
+2023-01-10 05:14:09.180 [info] > git ls-files --stage -- /home/thomasxucpa/go/src/around/handler/post.go [21ms]
+2023-01-10 05:14:09.187 [info] > git cat-file -s c3a1b08780804681d8d323ce18720a5044273a75 [1ms]
+2023-01-10 05:14:12.402 [info] > git show --textconv :go/src/around/handler/router.go [17ms]
+2023-01-10 05:14:12.407 [info] > git show --textconv :go/src/around/main.go [13ms]
+2023-01-10 05:14:12.412 [info] > git show --textconv :go/src/around/handler/post.go [11ms]

@@ -1,0 +1,4 @@
+./completion.go
+./diagnostics.go
+./format.go
+./hover.go

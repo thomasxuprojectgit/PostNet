@@ -1,0 +1,10 @@
+./bexport.go
+./bimport.go
+./exportdata.go
+./gcimporter.go
+./iexport.go
+./iimport.go
+./newInterface11.go
+./support_go118.go
+./unified_no.go
+./ureader_yes.go

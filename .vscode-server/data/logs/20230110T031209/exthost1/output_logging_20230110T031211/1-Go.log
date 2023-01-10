@@ -1,0 +1,47 @@
+Starting linting the current package at /home/thomasxucpa/go/src/around
+Starting "go vet" under the folder /home/thomasxucpa/go/src/around
+Starting building the current package at /home/thomasxucpa/go/src/around
+/home/thomasxucpa/go/src/around>Finished running tool: /usr/bin/go vet .
+
+/home/thomasxucpa/go/src/around>Finished running tool: /usr/bin/go build -o /tmp/vscode-gokCCivr/go-code-check around
+
+Starting linting the current package at /home/thomasxucpa/go/src/around
+Starting "go vet" under the folder /home/thomasxucpa/go/src/around
+Starting building the current package at /home/thomasxucpa/go/src/around
+/home/thomasxucpa/go/src/around>Finished running tool: /usr/bin/go vet .
+
+/home/thomasxucpa/go/src/around>Finished running tool: /usr/bin/go build -o /tmp/vscode-gokCCivr/go-code-check around
+package around is not in GOROOT (/usr/lib/go-1.19/src/around)
+
+
+Tools environment: GOPATH=/home/thomasxucpa/go
+Installing 1 tool at /home/thomasxucpa/go/bin in module mode.
+  go-outline
+
+Installing github.com/ramya-rao-a/go-outline@v0.0.0-20210608161538-9736a4bde949 (/home/thomasxucpa/go/bin/go-outline) SUCCEEDED
+
+All tools successfully installed. You are ready to Go. :)
+Tools environment: GOPATH=/home/thomasxucpa/go
+Installing 1 tool at /home/thomasxucpa/go/bin in module mode.
+  gopls
+
+Starting linting the current package at /home/thomasxucpa/go/src/around
+Starting "go vet" under the folder /home/thomasxucpa/go/src/around
+Starting building the current package at /home/thomasxucpa/go/src/around
+/home/thomasxucpa/go/src/around>Finished running tool: /usr/bin/go vet .
+
+/home/thomasxucpa/go/src/around>Finished running tool: /usr/bin/go build -o /tmp/vscode-gokCCivr/go-code-check around
+package around is not in GOROOT (/usr/lib/go-1.19/src/around)
+
+
+Tools environment: GOPATH=/home/thomasxucpa/go
+Installing 1 tool at /home/thomasxucpa/go/bin in module mode.
+  goimports
+
+Installing golang.org/x/tools/cmd/goimports@latest (/home/thomasxucpa/go/bin/goimports) SUCCEEDED
+
+All tools successfully installed. You are ready to Go. :)
+Installing golang.org/x/tools/gopls@latest (/home/thomasxucpa/go/bin/gopls) SUCCEEDED
+
+All tools successfully installed. You are ready to Go. :)
+Starting linting the current package at /home/thomasxucpa/go/src/around

@@ -1,0 +1,15 @@
+./builtin.go
+./completion.go
+./deep_completion.go
+./definition.go
+./format.go
+./fuzz.go
+./keywords.go
+./labels.go
+./literal.go
+./package.go
+./postfix_snippets.go
+./printf.go
+./snippet.go
+./statements.go
+./util.go

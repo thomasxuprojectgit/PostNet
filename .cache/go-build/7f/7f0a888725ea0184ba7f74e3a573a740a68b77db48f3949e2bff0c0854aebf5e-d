@@ -1,0 +1,5 @@
+./schemes.go
+./tlds.go
+./tlds_pseudo.go
+./unicode.go
+./xurls.go

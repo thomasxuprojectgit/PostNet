@@ -1,0 +1,77 @@
+[Info  - 4:47:25 AM] 2023/01/10 04:47:25 go env for /home/thomasxucpa
+(root /home/thomasxucpa/go/src/around)
+(go version go version go1.19.4 linux/amd64)
+(valid build configuration = true)
+(build flags: [])
+GOPATH=/home/thomasxucpa/go
+GOSUMDB=sum.golang.org
+GOPRIVATE=
+GOMODCACHE=/home/thomasxucpa/go/pkg/mod
+GOWORK=
+GO111MODULE=
+GOROOT=/usr/lib/go-1.19
+GOMOD=/dev/null
+GOCACHE=/home/thomasxucpa/.cache/go-build
+GONOSUMDB=
+GOPROXY=https://proxy.golang.org,direct
+GOINSECURE=
+GOFLAGS=
+GONOPROXY=
+
+
+[Info  - 4:47:25 AM] 2023/01/10 04:47:25 go/packages.Load #1
+	snapshot=0
+	directory=file:///home/thomasxucpa
+	query=[around/... builtin]
+	packages=4
+
+[Info  - 4:47:25 AM] 2023/01/10 04:47:25 go/packages.Load #1: updating metadata for 133 packages
+
+[Info  - 4:48:04 AM] 2023/01/10 04:48:04 background imports cache refresh starting
+
+[Info  - 4:48:04 AM] 2023/01/10 04:48:04 background refresh finished after 61.663894ms
+
+[Info  - 4:48:45 AM] 2023/01/10 04:48:45 go/packages.Load #4
+	snapshot=14
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/src/around/main.go]
+	packages=1
+
+[Info  - 4:48:45 AM] 2023/01/10 04:48:45 go/packages.Load #4
+	snapshot=14
+	directory=file:///home/thomasxucpa
+	package="around"
+	files=[/home/thomasxucpa/go/src/around/main.go]
+
+[Info  - 4:48:45 AM] 2023/01/10 04:48:45 go/packages.Load #4: updating metadata for 1 packages
+
+[Info  - 4:48:45 AM] 2023/01/10 04:48:45 go/packages.Load #5
+	snapshot=14
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/src/around/main.go]
+	packages=1
+
+[Info  - 4:48:45 AM] 2023/01/10 04:48:45 go/packages.Load #5: updating metadata for 0 packages
+
+[Info  - 4:48:45 AM] 2023/01/10 04:48:45 go/packages.Load #5
+	snapshot=14
+	directory=file:///home/thomasxucpa
+	package="around"
+	files=[/home/thomasxucpa/go/src/around/main.go]
+
+[Info  - 4:48:49 AM] 2023/01/10 04:48:49 background imports cache refresh starting
+
+[Info  - 4:48:49 AM] 2023/01/10 04:48:49 background refresh finished after 5.095054ms
+
+[Info  - 4:51:10 AM] 2023/01/10 04:51:10 background imports cache refresh starting
+
+[Info  - 4:51:10 AM] 2023/01/10 04:51:10 background refresh finished after 5.437019ms
+
+[Info  - 4:51:40 AM] 2023/01/10 04:51:40 background imports cache refresh starting
+
+[Info  - 4:51:40 AM] 2023/01/10 04:51:40 background refresh finished after 4.963979ms
+
+[Info  - 4:53:09 AM] 2023/01/10 04:53:09 background imports cache refresh starting
+
+[Info  - 4:53:09 AM] 2023/01/10 04:53:09 background refresh finished after 4.878528ms
+
