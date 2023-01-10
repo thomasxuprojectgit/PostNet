@@ -224,3 +224,9 @@ Cancelling previous shutdown timeout
 [IPC Library: Pty Host]  INFO Persistent process "11": Replaying 5375 chars and 1 size events
 New EH opened, aborting shutdown
 [04:52:22] New EH opened, aborting shutdown
+[05:37:12] Getting Manifest... github.vscode-pull-request-github
+[05:37:12] Installing extension: github.vscode-pull-request-github
+[05:37:12] Extracted extension to /home/thomasxucpa/.vscode-server/extensions/.6d9a4230-a009-4d49-8bf0-0c4ddb34cbcc: github.vscode-pull-request-github
+[05:37:12] Renamed to /home/thomasxucpa/.vscode-server/extensions/github.vscode-pull-request-github-0.56.0
+[05:37:12] Extracting completed. github.vscode-pull-request-github
+[05:37:12] Extension installed successfully: github.vscode-pull-request-github

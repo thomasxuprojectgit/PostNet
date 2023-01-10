@@ -14,3 +14,4 @@
 2023-01-10 05:12:42.505 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 2023-01-10 05:12:44.296 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 2023-01-10 05:17:11.913 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-01-10 05:37:13.213 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'

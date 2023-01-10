@@ -20,3 +20,9 @@
 2023-01-10 04:47:22.940 [info] [127.0.0.1][930df790][ExtensionHostConnection] New connection established.
 2023-01-10 04:47:22.950 [info] [127.0.0.1][930df790][ExtensionHostConnection] <28800> Launched Extension Host Process.
 2023-01-10 04:52:22.478 [info] New EH opened, aborting shutdown
+2023-01-10 05:37:12.051 [info] Getting Manifest... github.vscode-pull-request-github
+2023-01-10 05:37:12.138 [info] Installing extension: github.vscode-pull-request-github
+2023-01-10 05:37:12.686 [info] Extracted extension to /home/thomasxucpa/.vscode-server/extensions/.6d9a4230-a009-4d49-8bf0-0c4ddb34cbcc: github.vscode-pull-request-github
+2023-01-10 05:37:12.691 [info] Renamed to /home/thomasxucpa/.vscode-server/extensions/github.vscode-pull-request-github-0.56.0
+2023-01-10 05:37:12.700 [info] Extracting completed. github.vscode-pull-request-github
+2023-01-10 05:37:12.706 [info] Extension installed successfully: github.vscode-pull-request-github
