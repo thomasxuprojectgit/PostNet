@@ -26,3 +26,7 @@
 2023-01-10 05:37:12.691 [info] Renamed to /home/thomasxucpa/.vscode-server/extensions/github.vscode-pull-request-github-0.56.0
 2023-01-10 05:37:12.700 [info] Extracting completed. github.vscode-pull-request-github
 2023-01-10 05:37:12.706 [info] Extension installed successfully: github.vscode-pull-request-github
+2023-01-10 05:45:51.565 [info] [127.0.0.1][f171a798][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-01-10 05:45:51.651 [info] [127.0.0.1][930df790][ExtensionHostConnection] <28800> Extension Host Process exited with code: 0, signal: null.
+2023-01-10 05:45:51.651 [info] Last EH closed, waiting before shutting down
+2023-01-10 05:50:51.652 [info] Last EH closed, shutting down

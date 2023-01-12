@@ -79,3 +79,10 @@ GONOPROXY=
 
 [Info  - 5:24:58 AM] 2023/01/10 05:24:58 background refresh finished after 5.159415ms
 
+[Info  - 5:39:29 AM] 2023/01/10 05:39:29 background imports cache refresh starting
+
+[Info  - 5:39:29 AM] 2023/01/10 05:39:29 background refresh finished after 5.143991ms
+
+[Info  - 5:45:51 AM] 2023/01/10 05:45:51 Shutdown session
+	shutdown_session=1
+

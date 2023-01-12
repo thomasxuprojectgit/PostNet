@@ -1,0 +1,2243 @@
+[Info  - 3:03:32 AM] 2023/01/12 03:03:32 go env for /home/thomasxucpa
+(root /home/thomasxucpa/go/src/around)
+(go version go version go1.19.4 linux/amd64)
+(valid build configuration = true)
+(build flags: [])
+GOMODCACHE=/home/thomasxucpa/go/pkg/mod
+GOWORK=
+GOFLAGS=
+GOROOT=/usr/lib/go-1.19
+GOINSECURE=
+GOPATH=/home/thomasxucpa/go
+GOMOD=/dev/null
+GO111MODULE=
+GOPROXY=https://proxy.golang.org,direct
+GOSUMDB=sum.golang.org
+GOPRIVATE=
+GONOPROXY=
+GONOSUMDB=
+GOCACHE=/home/thomasxucpa/.cache/go-build
+
+
+[Info  - 3:03:33 AM] 2023/01/12 03:03:33 go/packages.Load #1: updating metadata for 133 packages
+
+[Info  - 3:03:33 AM] 2023/01/12 03:03:33 go/packages.Load #1
+	snapshot=0
+	directory=file:///home/thomasxucpa
+	query=[around/... builtin]
+	packages=4
+
+[Info  - 3:19:24 AM] 2023/01/12 03:19:24 background imports cache refresh starting
+
+[Info  - 3:19:24 AM] 2023/01/12 03:19:24 background refresh finished after 77.11771ms
+
+[Info  - 3:37:06 AM] 2023/01/12 03:37:06 background imports cache refresh starting
+
+[Info  - 3:37:06 AM] 2023/01/12 03:37:06 background refresh finished after 5.062799ms
+
+[Info  - 4:18:32 AM] 2023/01/12 04:18:32 go/packages.Load #46
+	snapshot=50
+	directory=file:///home/thomasxucpa
+	query=[around/... builtin]
+	packages=4
+
+[Info  - 4:18:32 AM] 2023/01/12 04:18:32 go/packages.Load #46: updating metadata for 133 packages
+
+[Info  - 4:18:34 AM] 2023/01/12 04:18:34 go/packages.Load #477
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/pkg/errors@v0.9.1/stack_test.go]
+	packages=1
+
+[Info  - 4:18:34 AM] 2023/01/12 04:18:34 go/packages.Load #477
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="github.com/pkg/errors [github.com/pkg/errors.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/pkg/errors@v0.9.1/errors.go /home/thomasxucpa/go/pkg/mod/github.com/pkg/errors@v0.9.1/go113.go /home/thomasxucpa/go/pkg/mod/github.com/pkg/errors@v0.9.1/stack.go /home/thomasxucpa/go/pkg/mod/github.com/pkg/errors@v0.9.1/bench_test.go /home/thomasxucpa/go/pkg/mod/github.com/pkg/errors@v0.9.1/errors_test.go /home/thomasxucpa/go/pkg/mod/github.com/pkg/errors@v0.9.1/format_test.go /home/thomasxucpa/go/pkg/mod/github.com/pkg/errors@v0.9.1/go113_test.go /home/thomasxucpa/go/pkg/mod/github.com/pkg/errors@v0.9.1/json_test.go /home/thomasxucpa/go/pkg/mod/github.com/pkg/errors@v0.9.1/stack_test.go]
+
+[Info  - 4:18:34 AM] 2023/01/12 04:18:34 go/packages.Load #477: updating metadata for 6 packages
+
+[Info  - 4:18:35 AM] 2023/01/12 04:18:35 reloadOrphanedFiles reloading
+	query=[file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_create_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_repository_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_repository_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/trace/opentracing/transport_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/uritemplates/utils_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/pkg/errors@v0.9.1/example_test.go]
+
+[Info  - 4:18:44 AM] 2023/01/12 04:18:44 go/packages.Load #479
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_create_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_repository_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_repository_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/trace/opentracing/transport_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/uritemplates/utils_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/pkg/errors@v0.9.1/example_test.go]
+	packages=2
+
+[Info  - 4:18:44 AM] 2023/01/12 04:18:44 go/packages.Load #479
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_create_test.go]
+
+[Info  - 4:18:44 AM] 2023/01/12 04:18:44 go/packages.Load #479
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="github.com/pkg/errors_test [github.com/pkg/errors.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/pkg/errors@v0.9.1/example_test.go]
+
+[Info  - 4:18:44 AM] 2023/01/12 04:18:44 go/packages.Load #479: updating metadata for 2 packages
+
+[Info  - 4:18:44 AM] 2023/01/12 04:18:44 reloadOrphanedFiles reloading
+	query=[file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_repository_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_repository_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/trace/opentracing/transport_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/uritemplates/utils_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+
+[Info  - 4:18:53 AM] 2023/01/12 04:18:53 go/packages.Load #480
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_repository_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_repository_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/trace/opentracing/transport_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/uritemplates/utils_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+	packages=1
+
+[Info  - 4:18:53 AM] 2023/01/12 04:18:53 go/packages.Load #480
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_repository_test.go]
+
+[Info  - 4:18:53 AM] 2023/01/12 04:18:53 go/packages.Load #480: updating metadata for 1 packages
+
+[Info  - 4:18:53 AM] 2023/01/12 04:18:53 reloadOrphanedFiles reloading
+	query=[file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_repository_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/trace/opentracing/transport_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/uritemplates/utils_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+
+[Info  - 4:19:01 AM] 2023/01/12 04:19:01 go/packages.Load #481
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_repository_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/trace/opentracing/transport_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/uritemplates/utils_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+	packages=1
+
+[Info  - 4:19:01 AM] 2023/01/12 04:19:01 go/packages.Load #481
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_test.go]
+
+[Info  - 4:19:01 AM] 2023/01/12 04:19:01 go/packages.Load #481: updating metadata for 1 packages
+
+[Info  - 4:19:01 AM] 2023/01/12 04:19:01 reloadOrphanedFiles reloading
+	query=[file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_repository_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/trace/opentracing/transport_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/uritemplates/utils_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+
+[Info  - 4:19:09 AM] 2023/01/12 04:19:09 go/packages.Load #482
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_repository_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/trace/opentracing/transport_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/uritemplates/utils_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+	packages=1
+
+[Info  - 4:19:09 AM] 2023/01/12 04:19:09 go/packages.Load #482
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_repository_test.go]
+
+[Info  - 4:19:09 AM] 2023/01/12 04:19:09 go/packages.Load #482: updating metadata for 1 packages
+
+[Info  - 4:19:09 AM] 2023/01/12 04:19:09 reloadOrphanedFiles reloading
+	query=[file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/trace/opentracing/transport_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/uritemplates/utils_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+
+[Info  - 4:19:17 AM] 2023/01/12 04:19:17 go/packages.Load #483
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/trace/opentracing/transport_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/uritemplates/utils_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+	packages=1
+
+[Info  - 4:19:17 AM] 2023/01/12 04:19:17 go/packages.Load #483
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go]
+
+[Info  - 4:19:17 AM] 2023/01/12 04:19:17 go/packages.Load #483: updating metadata for 1 packages
+
+[Info  - 4:19:17 AM] 2023/01/12 04:19:17 reloadOrphanedFiles reloading
+	query=[file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/trace/opentracing/transport_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/uritemplates/utils_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+
+[Info  - 4:19:25 AM] 2023/01/12 04:19:25 go/packages.Load #484
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/trace/opentracing/transport_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/uritemplates/utils_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+	packages=1
+
+[Info  - 4:19:25 AM] 2023/01/12 04:19:25 go/packages.Load #484
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go]
+
+[Info  - 4:19:25 AM] 2023/01/12 04:19:25 go/packages.Load #484: updating metadata for 1 packages
+
+[Info  - 4:19:25 AM] 2023/01/12 04:19:25 reloadOrphanedFiles reloading
+	query=[file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/trace/opentracing/transport_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/uritemplates/utils_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file:///home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+
+[Info  - 4:19:33 AM] 2023/01/12 04:19:33 go/packages.Load #485
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/trace/opentracing/transport_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/uritemplates/utils_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+	packages=1
+
+[Info  - 4:19:33 AM] 2023/01/12 04:19:33 go/packages.Load #485
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go]
+
+[Info  - 4:19:33 AM] 2023/01/12 04:19:33 go/packages.Load #485: updating metadata for 1 packages
+
+[Info  - 4:19:33 AM] 2023/01/12 04:19:33 go/packages.Load #486
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go]
+	packages=1
+
+[Info  - 4:19:33 AM] 2023/01/12 04:19:33 go/packages.Load #486
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go]
+
+[Info  - 4:19:33 AM] 2023/01/12 04:19:33 go/packages.Load #486: updating metadata for 1 packages
+
+[Info  - 4:19:33 AM] 2023/01/12 04:19:33 go/packages.Load #487
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go]
+	packages=1
+
+[Info  - 4:19:33 AM] 2023/01/12 04:19:33 go/packages.Load #487
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go]
+
+[Info  - 4:19:33 AM] 2023/01/12 04:19:33 go/packages.Load #487: updating metadata for 1 packages
+
+[Info  - 4:19:34 AM] 2023/01/12 04:19:34 go/packages.Load #488
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go]
+	packages=1
+
+[Info  - 4:19:34 AM] 2023/01/12 04:19:34 go/packages.Load #488
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go]
+
+[Info  - 4:19:34 AM] 2023/01/12 04:19:34 go/packages.Load #488: updating metadata for 1 packages
+
+[Info  - 4:19:34 AM] 2023/01/12 04:19:34 go/packages.Load #489
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go]
+	packages=1
+
+[Info  - 4:19:34 AM] 2023/01/12 04:19:34 go/packages.Load #489
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go]
+
+[Info  - 4:19:34 AM] 2023/01/12 04:19:34 go/packages.Load #489: updating metadata for 1 packages
+
+[Info  - 4:19:34 AM] 2023/01/12 04:19:34 go/packages.Load #490
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+	packages=1
+
+[Info  - 4:19:34 AM] 2023/01/12 04:19:34 go/packages.Load #490
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+
+[Info  - 4:19:34 AM] 2023/01/12 04:19:34 go/packages.Load #490: updating metadata for 1 packages
+
+[Info  - 4:19:34 AM] 2023/01/12 04:19:34 go/packages.Load #491
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go]
+	packages=1
+
+[Info  - 4:19:34 AM] 2023/01/12 04:19:34 go/packages.Load #491
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go]
+
+[Info  - 4:19:34 AM] 2023/01/12 04:19:34 go/packages.Load #491: updating metadata for 1 packages
+
+[Info  - 4:19:34 AM] 2023/01/12 04:19:34 go/packages.Load #492
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go]
+	packages=1
+
+[Info  - 4:19:34 AM] 2023/01/12 04:19:34 go/packages.Load #492
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go]
+
+[Info  - 4:19:34 AM] 2023/01/12 04:19:34 go/packages.Load #492: updating metadata for 1 packages
+
+[Info  - 4:19:35 AM] 2023/01/12 04:19:35 go/packages.Load #493
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+	packages=1
+
+[Info  - 4:19:35 AM] 2023/01/12 04:19:35 go/packages.Load #493
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+
+[Info  - 4:19:35 AM] 2023/01/12 04:19:35 go/packages.Load #493: updating metadata for 1 packages
+
+[Info  - 4:19:35 AM] 2023/01/12 04:19:35 go/packages.Load #494
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go]
+	packages=1
+
+[Info  - 4:19:35 AM] 2023/01/12 04:19:35 go/packages.Load #494
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go]
+
+[Info  - 4:19:35 AM] 2023/01/12 04:19:35 go/packages.Load #494: updating metadata for 1 packages
+
+[Info  - 4:19:35 AM] 2023/01/12 04:19:35 go/packages.Load #495
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go]
+	packages=1
+
+[Info  - 4:19:35 AM] 2023/01/12 04:19:35 go/packages.Load #495
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go]
+
+[Info  - 4:19:35 AM] 2023/01/12 04:19:35 go/packages.Load #495: updating metadata for 1 packages
+
+[Info  - 4:19:35 AM] 2023/01/12 04:19:35 go/packages.Load #496
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go]
+	packages=1
+
+[Info  - 4:19:35 AM] 2023/01/12 04:19:35 go/packages.Load #496
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go]
+
+[Info  - 4:19:35 AM] 2023/01/12 04:19:35 go/packages.Load #496: updating metadata for 1 packages
+
+[Info  - 4:19:36 AM] 2023/01/12 04:19:36 go/packages.Load #497
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go]
+	packages=1
+
+[Info  - 4:19:36 AM] 2023/01/12 04:19:36 go/packages.Load #497
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go]
+
+[Info  - 4:19:36 AM] 2023/01/12 04:19:36 go/packages.Load #497: updating metadata for 1 packages
+
+[Info  - 4:19:36 AM] 2023/01/12 04:19:36 go/packages.Load #498
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go]
+	packages=1
+
+[Info  - 4:19:36 AM] 2023/01/12 04:19:36 go/packages.Load #498
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go]
+
+[Info  - 4:19:36 AM] 2023/01/12 04:19:36 go/packages.Load #498: updating metadata for 1 packages
+
+[Info  - 4:19:36 AM] 2023/01/12 04:19:36 go/packages.Load #499
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/uritemplates/utils_test.go]
+	packages=1
+
+[Info  - 4:19:36 AM] 2023/01/12 04:19:36 go/packages.Load #499
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/uritemplates/utils_test.go]
+
+[Info  - 4:19:36 AM] 2023/01/12 04:19:36 go/packages.Load #499: updating metadata for 1 packages
+
+[Info  - 4:19:36 AM] 2023/01/12 04:19:36 go/packages.Load #500
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go]
+	packages=1
+
+[Info  - 4:19:36 AM] 2023/01/12 04:19:36 go/packages.Load #500
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go]
+
+[Info  - 4:19:36 AM] 2023/01/12 04:19:36 go/packages.Load #500: updating metadata for 1 packages
+
+[Info  - 4:19:36 AM] 2023/01/12 04:19:36 go/packages.Load #501
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/trace/opentracing/transport_test.go]
+	packages=1
+
+[Info  - 4:19:36 AM] 2023/01/12 04:19:36 go/packages.Load #501
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/trace/opentracing/transport_test.go]
+
+[Info  - 4:19:36 AM] 2023/01/12 04:19:36 go/packages.Load #501: updating metadata for 3 packages
+
+[Info  - 4:19:37 AM] 2023/01/12 04:19:37 go/packages.Load #502
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go]
+	packages=1
+
+[Info  - 4:19:37 AM] 2023/01/12 04:19:37 go/packages.Load #502
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go]
+
+[Info  - 4:19:37 AM] 2023/01/12 04:19:37 go/packages.Load #502: updating metadata for 1 packages
+
+[Info  - 4:19:37 AM] 2023/01/12 04:19:37 go/packages.Load #503
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go]
+	packages=1
+
+[Info  - 4:19:37 AM] 2023/01/12 04:19:37 go/packages.Load #503
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go]
+
+[Info  - 4:19:37 AM] 2023/01/12 04:19:37 go/packages.Load #503: updating metadata for 1 packages
+
+[Info  - 4:19:37 AM] 2023/01/12 04:19:37 go/packages.Load #504
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go]
+	packages=1
+
+[Info  - 4:19:37 AM] 2023/01/12 04:19:37 go/packages.Load #504
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go]
+
+[Info  - 4:19:37 AM] 2023/01/12 04:19:37 go/packages.Load #504: updating metadata for 1 packages
+
+[Info  - 4:19:37 AM] 2023/01/12 04:19:37 go/packages.Load #505
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go]
+	packages=1
+
+[Info  - 4:19:37 AM] 2023/01/12 04:19:37 go/packages.Load #505
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go]
+
+[Info  - 4:19:37 AM] 2023/01/12 04:19:37 go/packages.Load #505: updating metadata for 1 packages
+
+[Info  - 4:19:38 AM] 2023/01/12 04:19:38 go/packages.Load #506
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go]
+	packages=1
+
+[Info  - 4:19:38 AM] 2023/01/12 04:19:38 go/packages.Load #506
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go]
+
+[Info  - 4:19:38 AM] 2023/01/12 04:19:38 go/packages.Load #506: updating metadata for 1 packages
+
+[Info  - 4:19:38 AM] 2023/01/12 04:19:38 go/packages.Load #507
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go]
+	packages=1
+
+[Info  - 4:19:38 AM] 2023/01/12 04:19:38 go/packages.Load #507
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go]
+
+[Info  - 4:19:38 AM] 2023/01/12 04:19:38 go/packages.Load #507: updating metadata for 1 packages
+
+[Info  - 4:19:38 AM] 2023/01/12 04:19:38 go/packages.Load #508
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go]
+	packages=1
+
+[Info  - 4:19:38 AM] 2023/01/12 04:19:38 go/packages.Load #508
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go]
+
+[Info  - 4:19:38 AM] 2023/01/12 04:19:38 go/packages.Load #508: updating metadata for 1 packages
+
+[Info  - 4:19:38 AM] 2023/01/12 04:19:38 go/packages.Load #509
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go]
+	packages=1
+
+[Info  - 4:19:38 AM] 2023/01/12 04:19:38 go/packages.Load #509
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go]
+
+[Info  - 4:19:38 AM] 2023/01/12 04:19:38 go/packages.Load #509: updating metadata for 1 packages
+
+[Info  - 4:19:38 AM] 2023/01/12 04:19:38 go/packages.Load #510
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go]
+	packages=1
+
+[Info  - 4:19:38 AM] 2023/01/12 04:19:38 go/packages.Load #510
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go]
+
+[Info  - 4:19:38 AM] 2023/01/12 04:19:38 go/packages.Load #510: updating metadata for 1 packages
+
+[Info  - 4:19:39 AM] 2023/01/12 04:19:39 go/packages.Load #511
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go]
+	packages=1
+
+[Info  - 4:19:39 AM] 2023/01/12 04:19:39 go/packages.Load #511
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go]
+
+[Info  - 4:19:39 AM] 2023/01/12 04:19:39 go/packages.Load #511: updating metadata for 1 packages
+
+[Info  - 4:19:39 AM] 2023/01/12 04:19:39 go/packages.Load #512
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go]
+	packages=1
+
+[Info  - 4:19:39 AM] 2023/01/12 04:19:39 go/packages.Load #512
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go]
+
+[Info  - 4:19:39 AM] 2023/01/12 04:19:39 go/packages.Load #512: updating metadata for 1 packages
+
+[Info  - 4:19:39 AM] 2023/01/12 04:19:39 go/packages.Load #513
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go]
+	packages=1
+
+[Info  - 4:19:39 AM] 2023/01/12 04:19:39 go/packages.Load #513
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go]
+
+[Info  - 4:19:39 AM] 2023/01/12 04:19:39 go/packages.Load #513: updating metadata for 1 packages
+
+[Info  - 4:19:39 AM] 2023/01/12 04:19:39 go/packages.Load #514
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go]
+	packages=1
+
+[Info  - 4:19:39 AM] 2023/01/12 04:19:39 go/packages.Load #514
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go]
+
+[Info  - 4:19:39 AM] 2023/01/12 04:19:39 go/packages.Load #514: updating metadata for 1 packages
+
+[Info  - 4:19:39 AM] 2023/01/12 04:19:39 go/packages.Load #515
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go]
+	packages=1
+
+[Info  - 4:19:39 AM] 2023/01/12 04:19:39 go/packages.Load #515
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go]
+
+[Info  - 4:19:39 AM] 2023/01/12 04:19:39 go/packages.Load #515: updating metadata for 1 packages
+
+[Info  - 4:19:40 AM] 2023/01/12 04:19:40 go/packages.Load #516
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go]
+	packages=1
+
+[Info  - 4:19:40 AM] 2023/01/12 04:19:40 go/packages.Load #516
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go]
+
+[Info  - 4:19:40 AM] 2023/01/12 04:19:40 go/packages.Load #516: updating metadata for 1 packages
+
+[Info  - 4:19:40 AM] 2023/01/12 04:19:40 go/packages.Load #517
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go]
+	packages=1
+
+[Info  - 4:19:40 AM] 2023/01/12 04:19:40 go/packages.Load #517: updating metadata for 1 packages
+
+[Info  - 4:19:40 AM] 2023/01/12 04:19:40 go/packages.Load #517
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go]
+
+[Info  - 4:19:40 AM] 2023/01/12 04:19:40 go/packages.Load #518
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go]
+	packages=1
+
+[Info  - 4:19:40 AM] 2023/01/12 04:19:40 go/packages.Load #518
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go]
+
+[Info  - 4:19:40 AM] 2023/01/12 04:19:40 go/packages.Load #518: updating metadata for 1 packages
+
+[Info  - 4:19:40 AM] 2023/01/12 04:19:40 go/packages.Load #519
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go]
+	packages=1
+
+[Info  - 4:19:40 AM] 2023/01/12 04:19:40 go/packages.Load #519
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go]
+
+[Info  - 4:19:40 AM] 2023/01/12 04:19:40 go/packages.Load #519: updating metadata for 1 packages
+
+[Info  - 4:19:40 AM] 2023/01/12 04:19:40 go/packages.Load #520
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go]
+	packages=1
+
+[Info  - 4:19:40 AM] 2023/01/12 04:19:40 go/packages.Load #520
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go]
+
+[Info  - 4:19:40 AM] 2023/01/12 04:19:40 go/packages.Load #520: updating metadata for 1 packages
+
+[Info  - 4:19:41 AM] 2023/01/12 04:19:41 go/packages.Load #521
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go]
+	packages=1
+
+[Info  - 4:19:41 AM] 2023/01/12 04:19:41 go/packages.Load #521
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go]
+
+[Info  - 4:19:41 AM] 2023/01/12 04:19:41 go/packages.Load #521: updating metadata for 1 packages
+
+[Info  - 4:19:41 AM] 2023/01/12 04:19:41 go/packages.Load #522
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go]
+	packages=1
+
+[Info  - 4:19:41 AM] 2023/01/12 04:19:41 go/packages.Load #522: updating metadata for 1 packages
+
+[Info  - 4:19:41 AM] 2023/01/12 04:19:41 go/packages.Load #522
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go]
+
+[Info  - 4:19:41 AM] 2023/01/12 04:19:41 go/packages.Load #523
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go]
+	packages=1
+
+[Info  - 4:19:41 AM] 2023/01/12 04:19:41 go/packages.Load #523
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go]
+
+[Info  - 4:19:41 AM] 2023/01/12 04:19:41 go/packages.Load #523: updating metadata for 1 packages
+
+[Info  - 4:19:41 AM] 2023/01/12 04:19:41 go/packages.Load #524
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go]
+	packages=1
+
+[Info  - 4:19:41 AM] 2023/01/12 04:19:41 go/packages.Load #524
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go]
+
+[Info  - 4:19:41 AM] 2023/01/12 04:19:41 go/packages.Load #524: updating metadata for 1 packages
+
+[Info  - 4:19:42 AM] 2023/01/12 04:19:42 go/packages.Load #525
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go]
+	packages=1
+
+[Info  - 4:19:42 AM] 2023/01/12 04:19:42 go/packages.Load #525
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go]
+
+[Info  - 4:19:42 AM] 2023/01/12 04:19:42 go/packages.Load #525: updating metadata for 1 packages
+
+[Info  - 4:19:42 AM] 2023/01/12 04:19:42 go/packages.Load #526
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go]
+	packages=1
+
+[Info  - 4:19:42 AM] 2023/01/12 04:19:42 go/packages.Load #526
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go]
+
+[Info  - 4:19:42 AM] 2023/01/12 04:19:42 go/packages.Load #526: updating metadata for 1 packages
+
+[Info  - 4:19:42 AM] 2023/01/12 04:19:42 go/packages.Load #527
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go]
+	packages=1
+
+[Info  - 4:19:42 AM] 2023/01/12 04:19:42 go/packages.Load #527
+	snapshot=479
+	directory=file:///home/thomasxucpa
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/thomasxucpa/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go]
+
+[Info  - 4:19:42 AM] 2023/01/12 04:19:42 go/packages.Load #527: updating metadata for 1 packages
+
+[Info  - 4:40:43 AM] 2023/01/12 04:40:43 go/packages.Load #528
+	snapshot=536
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/src/around/constants/constants.go]
+	packages=1
+
+[Info  - 4:40:43 AM] 2023/01/12 04:40:43 go/packages.Load #528
+	snapshot=536
+	directory=file:///home/thomasxucpa
+	package="around/constants"
+	files=[/home/thomasxucpa/go/src/around/constants/constants.go]
+
+[Info  - 4:40:43 AM] 2023/01/12 04:40:43 go/packages.Load #528: updating metadata for 1 packages
+
+[Info  - 4:40:56 AM] 2023/01/12 04:40:56 go/packages.Load #529
+	snapshot=538
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/src/around/constants/constants.go]
+	packages=1
+
+[Info  - 4:40:56 AM] 2023/01/12 04:40:56 go/packages.Load #529
+	snapshot=538
+	directory=file:///home/thomasxucpa
+	package="around/constants"
+	files=[/home/thomasxucpa/go/src/around/constants/constants.go]
+
+[Info  - 4:40:56 AM] 2023/01/12 04:40:56 go/packages.Load #529: updating metadata for 1 packages
+
+[Info  - 4:42:04 AM] 2023/01/12 04:42:04 background imports cache refresh starting
+
+[Info  - 4:42:04 AM] 2023/01/12 04:42:04 background refresh finished after 5.578697ms
+
+[Info  - 4:42:55 AM] 2023/01/12 04:42:55 background imports cache refresh starting
+
+[Info  - 4:42:55 AM] 2023/01/12 04:42:55 background refresh finished after 5.729635ms
+
+[Info  - 4:43:31 AM] 2023/01/12 04:43:31 background imports cache refresh starting
+
+[Info  - 4:43:31 AM] 2023/01/12 04:43:31 background refresh finished after 6.349383ms
+
+[Info  - 4:45:17 AM] 2023/01/12 04:45:17 background imports cache refresh starting
+
+[Info  - 4:45:17 AM] 2023/01/12 04:45:17 background refresh finished after 5.783641ms
+
+[Info  - 4:46:22 AM] 2023/01/12 04:46:22 go/packages.Load #530
+	snapshot=636
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/src/around/backend/elasticsearch.go]
+	packages=1
+
+[Info  - 4:46:22 AM] 2023/01/12 04:46:22 go/packages.Load #530
+	snapshot=636
+	directory=file:///home/thomasxucpa
+	package="around/backend"
+	files=[/home/thomasxucpa/go/src/around/backend/elasticsearch.go]
+
+[Info  - 4:46:22 AM] 2023/01/12 04:46:22 go/packages.Load #530: updating metadata for 1 packages
+
+[Info  - 4:46:34 AM] 2023/01/12 04:46:34 go/packages.Load #531
+	snapshot=638
+	directory=file:///home/thomasxucpa
+	query=[file=/home/thomasxucpa/go/src/around/backend/elasticsearch.go]
+	packages=1
+
+[Info  - 4:46:34 AM] 2023/01/12 04:46:34 go/packages.Load #531
+	snapshot=638
+	directory=file:///home/thomasxucpa
+	package="around/backend"
+	files=[/home/thomasxucpa/go/src/around/backend/elasticsearch.go]
+
+[Info  - 4:46:34 AM] 2023/01/12 04:46:34 go/packages.Load #531: updating metadata for 11 packages
+
+[Error - 4:46:36 AM] 2023/01/12 04:46:36 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:46:36 AM] 2023/01/12 04:46:36 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:47:08 AM] 2023/01/12 04:47:08 background imports cache refresh starting
+
+[Info  - 4:47:08 AM] 2023/01/12 04:47:08 background refresh finished after 5.852609ms
+
+[Info  - 4:47:51 AM] 2023/01/12 04:47:51 background imports cache refresh starting
+
+[Info  - 4:47:51 AM] 2023/01/12 04:47:51 background refresh finished after 6.167484ms
+
+[Info  - 4:48:36 AM] 2023/01/12 04:48:36 background imports cache refresh starting
+
+[Info  - 4:48:36 AM] 2023/01/12 04:48:36 background refresh finished after 6.242007ms
+
+[Error - 4:51:44 AM] 2023/01/12 04:51:44 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:51:45 AM] 2023/01/12 04:51:45 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:51:45 AM] 2023/01/12 04:51:45 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:51:46 AM] 2023/01/12 04:51:46 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:51:47 AM] 2023/01/12 04:51:47 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:51:47 AM] 2023/01/12 04:51:47 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:51:49 AM] 2023/01/12 04:51:49 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:51:49 AM] 2023/01/12 04:51:49 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:51:50 AM] 2023/01/12 04:51:50 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:51:51 AM] 2023/01/12 04:51:51 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:51:52 AM] 2023/01/12 04:51:52 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:51:52 AM] 2023/01/12 04:51:52 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:51:53 AM] 2023/01/12 04:51:53 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:51:54 AM] 2023/01/12 04:51:54 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:51:55 AM] 2023/01/12 04:51:55 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:51:56 AM] 2023/01/12 04:51:56 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:51:57 AM] 2023/01/12 04:51:57 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:51:58 AM] 2023/01/12 04:51:58 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:51:58 AM] 2023/01/12 04:51:58 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:51:59 AM] 2023/01/12 04:51:59 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:52:00 AM] 2023/01/12 04:52:00 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:52:01 AM] 2023/01/12 04:52:01 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:52:15 AM] 2023/01/12 04:52:15 background imports cache refresh starting
+
+[Info  - 4:52:15 AM] 2023/01/12 04:52:15 background refresh finished after 6.045235ms
+
+[Info  - 4:54:16 AM] 2023/01/12 04:54:16 background imports cache refresh starting
+
+[Info  - 4:54:16 AM] 2023/01/12 04:54:16 background refresh finished after 5.792534ms
+
+[Error - 4:56:08 AM] 2023/01/12 04:56:08 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:09 AM] 2023/01/12 04:56:09 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:10 AM] 2023/01/12 04:56:10 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:11 AM] 2023/01/12 04:56:10 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:15 AM] 2023/01/12 04:56:15 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:16 AM] 2023/01/12 04:56:16 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:17 AM] 2023/01/12 04:56:17 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:17 AM] 2023/01/12 04:56:17 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:17 AM] 2023/01/12 04:56:17 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:19 AM] 2023/01/12 04:56:19 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:19 AM] 2023/01/12 04:56:19 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:20 AM] 2023/01/12 04:56:20 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:21 AM] 2023/01/12 04:56:21 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:24 AM] 2023/01/12 04:56:24 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:25 AM] 2023/01/12 04:56:25 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:26 AM] 2023/01/12 04:56:26 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:26 AM] 2023/01/12 04:56:26 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:28 AM] 2023/01/12 04:56:28 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:30 AM] 2023/01/12 04:56:30 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:30 AM] 2023/01/12 04:56:30 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:31 AM] 2023/01/12 04:56:31 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:32 AM] 2023/01/12 04:56:32 no signature help: cannot find an enclosing function
+	position=20:28
+
+[Error - 4:56:32 AM] 2023/01/12 04:56:32 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:34 AM] 2023/01/12 04:56:34 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:35 AM] 2023/01/12 04:56:35 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:36 AM] 2023/01/12 04:56:36 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:37 AM] 2023/01/12 04:56:37 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:37 AM] 2023/01/12 04:56:37 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:38 AM] 2023/01/12 04:56:38 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:38 AM] 2023/01/12 04:56:38 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:40 AM] 2023/01/12 04:56:40 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:41 AM] 2023/01/12 04:56:41 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:56:41 AM] 2023/01/12 04:56:41 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:56:50 AM] 2023/01/12 04:56:50 background imports cache refresh starting
+
+[Info  - 4:56:50 AM] 2023/01/12 04:56:50 background refresh finished after 7.552755ms
+
+[Error - 4:56:59 AM] 2023/01/12 04:56:59 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:00 AM] 2023/01/12 04:57:00 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:00 AM] 2023/01/12 04:57:00 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:01 AM] 2023/01/12 04:57:01 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/google/go-cmp v0.5.7
+go: downloading github.com/fortytw2/leaktest v1.3.0
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:02 AM] 2023/01/12 04:57:02 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/google/go-cmp v0.5.7
+go: downloading github.com/fortytw2/leaktest v1.3.0
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:04 AM] 2023/01/12 04:57:04 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/google/go-cmp v0.5.7
+go: downloading github.com/fortytw2/leaktest v1.3.0
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:04 AM] 2023/01/12 04:57:04 no signature help: cannot find an enclosing function
+	position=21:9
+
+[Error - 4:57:05 AM] 2023/01/12 04:57:05 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/google/go-cmp v0.5.7
+go: downloading github.com/fortytw2/leaktest v1.3.0
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:06 AM] 2023/01/12 04:57:06 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:07 AM] 2023/01/12 04:57:07 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:08 AM] 2023/01/12 04:57:08 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:09 AM] 2023/01/12 04:57:09 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:09 AM] 2023/01/12 04:57:09 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:09 AM] 2023/01/12 04:57:09 no signature help: cannot find an enclosing function
+	position=21:23
+
+[Error - 4:57:10 AM] 2023/01/12 04:57:10 no signature help: cannot find an enclosing function
+	position=21:24
+
+[Error - 4:57:10 AM] 2023/01/12 04:57:10 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:11 AM] 2023/01/12 04:57:11 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:12 AM] 2023/01/12 04:57:12 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:12 AM] 2023/01/12 04:57:12 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:13 AM] 2023/01/12 04:57:13 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:14 AM] 2023/01/12 04:57:14 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:15 AM] 2023/01/12 04:57:15 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:15 AM] 2023/01/12 04:57:15 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:17 AM] 2023/01/12 04:57:17 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:17 AM] 2023/01/12 04:57:17 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:18 AM] 2023/01/12 04:57:18 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:19 AM] 2023/01/12 04:57:19 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:57:19 AM] 2023/01/12 04:57:19 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/google/go-cmp v0.5.7
+go: downloading github.com/fortytw2/leaktest v1.3.0
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:57:28 AM] 2023/01/12 04:57:28 background imports cache refresh starting
+
+[Info  - 4:57:28 AM] 2023/01/12 04:57:28 background refresh finished after 5.309524ms
+
+[Info  - 4:58:00 AM] 2023/01/12 04:58:00 background imports cache refresh starting
+
+[Info  - 4:58:00 AM] 2023/01/12 04:58:00 background refresh finished after 5.245118ms
+
+[Error - 4:58:07 AM] 2023/01/12 04:58:07 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/google/go-cmp v0.5.7
+go: downloading github.com/fortytw2/leaktest v1.3.0
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:58:08 AM] 2023/01/12 04:58:08 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:58:09 AM] 2023/01/12 04:58:09 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:58:12 AM] 2023/01/12 04:58:12 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:58:13 AM] 2023/01/12 04:58:13 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:58:14 AM] 2023/01/12 04:58:14 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:58:15 AM] 2023/01/12 04:58:15 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:58:16 AM] 2023/01/12 04:58:16 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:58:20 AM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:58:20 AM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:58:22 AM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:58:23 AM] 2023/01/12 04:58:23 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:58:25 AM] 2023/01/12 04:58:25 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:58:25 AM] 2023/01/12 04:58:25 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:58:26 AM] 2023/01/12 04:58:26 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:58:26 AM] 2023/01/12 04:58:26 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:58:27 AM] 2023/01/12 04:58:27 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:58:28 AM] 2023/01/12 04:58:28 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:58:28 AM] 2023/01/12 04:58:28 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:58:42 AM] 2023/01/12 04:58:42 background imports cache refresh starting
+
+[Info  - 4:58:42 AM] 2023/01/12 04:58:42 background refresh finished after 5.071408ms
+
+[Error - 4:59:23 AM] 2023/01/12 04:59:23 no signature help: cannot find an enclosing function
+	position=16:27
+
+[Error - 4:59:23 AM] 2023/01/12 04:59:23 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:59:23 AM] 2023/01/12 04:59:23 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:59:25 AM] 2023/01/12 04:59:25 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:59:27 AM] 2023/01/12 04:59:27 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:59:29 AM] 2023/01/12 04:59:29 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:59:29 AM] 2023/01/12 04:59:29 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:59:31 AM] 2023/01/12 04:59:31 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:59:32 AM] 2023/01/12 04:59:32 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:59:34 AM] 2023/01/12 04:59:34 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:59:35 AM] 2023/01/12 04:59:35 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:59:36 AM] 2023/01/12 04:59:36 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:59:36 AM] 2023/01/12 04:59:36 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:59:37 AM] 2023/01/12 04:59:37 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:59:38 AM] 2023/01/12 04:59:38 tidy: diagnosing file:///home/thomasxucpa/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:59:51 AM] 2023/01/12 04:59:51 background imports cache refresh starting
+
+[Info  - 4:59:51 AM] 2023/01/12 04:59:51 background refresh finished after 5.582455ms
+
+[Info  - 5:09:04 AM] 2023/01/12 05:09:04 Shutdown session
+	shutdown_session=1
+

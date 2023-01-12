@@ -15,3 +15,6 @@
 2023-01-10 05:12:44.296 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 2023-01-10 05:17:11.913 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 2023-01-10 05:37:13.213 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2023-01-10 05:45:51.557 [info] Extension host terminating: received terminate message from renderer
+2023-01-10 05:45:51.558 [info] Lock '/home/thomasxucpa/.vscode-server/data/User/workspaceStorage/9a8057275842c33f88a86d02417a56c7/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-01-10 05:45:51.627 [info] Extension host with pid 28800 exiting with code 0
