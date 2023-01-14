@@ -1,0 +1,29 @@
+2023-01-14 17:02:12.223 [info] Extension host with pid 22864 started
+2023-01-14 17:02:12.308 [info] Lock '/home/thomasxucpa/.vscode-server/data/User/workspaceStorage/9a8057275842c33f88a86d02417a56c7/vscode.lock': Lock acquired.
+2023-01-14 17:02:12.601 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2023-01-14 17:02:12.603 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-14 17:02:13.318 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-01-14 17:02:13.319 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-14 17:02:14.181 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-14 17:02:14.182 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-14 17:02:14.183 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-14 17:02:14.184 [info] Eager extensions activated
+2023-01-14 17:02:14.859 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2023-01-14 17:02:17.779 [error] [golang.go] provider FAILED
+2023-01-14 17:02:17.779 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:466:21)
+2023-01-14 18:11:43.274 [error] [golang.go] provider FAILED
+2023-01-14 18:11:43.275 [error] Error: context canceled
+	at handleResponse (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:466:21)
+2023-01-14 19:00:03.703 [error] [golang.go] provider FAILED
+2023-01-14 19:00:03.704 [error] Error: no identifier found
+	at handleResponse (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:466:21)

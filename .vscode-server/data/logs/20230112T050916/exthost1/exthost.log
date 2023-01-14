@@ -22,3 +22,8 @@
 2023-01-12 05:09:49.391 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:ignore'
 2023-01-12 05:09:50.227 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3521
 2023-01-12 05:09:52.011 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3520
+2023-01-12 05:09:57.029 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3520
+2023-01-12 05:10:03.399 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2023-01-12 05:11:20.489 [info] Extension host terminating: received terminate message from renderer
+2023-01-12 05:11:20.490 [info] Lock '/home/thomasxucpa/.vscode-server/data/User/workspaceStorage/9a8057275842c33f88a86d02417a56c7/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-01-12 05:11:20.555 [info] Extension host with pid 22427 exiting with code 0

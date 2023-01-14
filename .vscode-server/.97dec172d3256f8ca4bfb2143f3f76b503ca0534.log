@@ -5,13 +5,13 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to 127.0.0.1:33371 (IPv4)
-Extension host agent listening on 33371
+Server bound to 127.0.0.1:32807 (IPv4)
+Extension host agent listening on 32807
 
-[05:09:16] Extension host agent started.
-[05:09:17] [127.0.0.1][da07a2d7][ManagementConnection] New connection established.
-[05:09:17] [127.0.0.1][33197a98][ExtensionHostConnection] New connection established.
-[05:09:17] [127.0.0.1][33197a98][ExtensionHostConnection] <22427> Launched Extension Host Process.
+[17:02:10] Extension host agent started.
+[17:02:10] [127.0.0.1][5c7d07c1][ManagementConnection] New connection established.
+[17:02:10] [127.0.0.1][81143b26][ExtensionHostConnection] New connection established.
+[17:02:10] [127.0.0.1][81143b26][ExtensionHostConnection] <22864> Launched Extension Host Process.
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
   '-c',
   'wget --version > /dev/null\n' +
