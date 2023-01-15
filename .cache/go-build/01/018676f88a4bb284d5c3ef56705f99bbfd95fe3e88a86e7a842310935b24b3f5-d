@@ -1,0 +1,12 @@
+./buffer.go
+./doc.go
+./error.go
+./json.go
+./jsonfloat.go
+./media.go
+./params.go
+./resumable.go
+./retry.go
+./retryable_linux.go
+./send.go
+./version.go

@@ -1,0 +1,30 @@
+{
+    "extends": [
+        "config:base",
+        "schedule:weekly",
+        ":disableDependencyDashboard"
+    ],
+    "semanticCommits": false,
+    "postUpdateOptions": [
+        "gomodTidy",
+        "gomodNoMassage"
+    ],
+    "commitMessagePrefix": "chore(all): ",
+    "commitMessageAction": "update",
+    "groupName": "all",
+    "ignoreDeps": [
+        "google.golang.org/genproto",
+        "github.com/google/martian/v3",
+        "golang.org/x/net",
+        "golang.org/x/sys",
+        "golang.org/x/oauth2"
+    ],
+    "ignorePaths": [
+        "**/snippets/**"
+    ],
+    "force": {
+        "constraints": {
+            "go": "1.19"
+        }
+    }
+}

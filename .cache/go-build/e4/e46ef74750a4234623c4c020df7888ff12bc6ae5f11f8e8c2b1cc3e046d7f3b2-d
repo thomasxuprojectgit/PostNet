@@ -1,0 +1,4 @@
+./conn_pool.go
+./creds.go
+./settings.go
+./version.go

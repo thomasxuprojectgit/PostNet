@@ -1,0 +1,16 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "code-runner.runInTerminal": true,
+    "workbench.editorAssociations": {
+        "*.o": "default"
+    },
+    "C_Cpp.updateChannel": "Insiders",
+    "makefileCommandRunner.makefilePath": "C:\\Users\\xunan\\OneDrive\\Coding\\Upenn\\Courses\\CIT 595 - Computer Systems Programming\\C-Refresher",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 15,
+    "editor.formatOnSave": true,
+    "remote.SSH.remotePlatform": {
+        "34.174.105.214": "linux",
+        "34.174.241.16": "linux"
+    }
+}

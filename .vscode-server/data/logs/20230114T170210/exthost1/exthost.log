@@ -27,3 +27,35 @@
 	at processMessageQueue (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4293:13)
 	at Immediate.<anonymous> (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4279:11)
 	at processImmediate (node:internal/timers:466:21)
+2023-01-14 22:25:24.246 [error] [golang.go] provider FAILED
+2023-01-14 22:25:24.247 [error] Error: no identifier found
+	at handleResponse (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:466:21)
+2023-01-14 23:06:01.504 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1087
+2023-01-14 23:06:07.873 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2365
+2023-01-14 23:06:15.755 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5864
+2023-01-14 23:06:22.187 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8081
+2023-01-14 23:06:29.937 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8615
+2023-01-14 23:06:37.400 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8622
+2023-01-14 23:06:44.958 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8840
+2023-01-14 23:06:51.372 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8848
+2023-01-14 23:06:59.288 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8880
+2023-01-14 23:07:10.664 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8900
+2023-01-14 23:07:18.263 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8905
+2023-01-14 23:07:26.075 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8905
+2023-01-14 23:09:58.632 [error] [golang.go] provider FAILED
+2023-01-14 23:09:58.633 [error] Error: no identifier found
+	at handleResponse (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:466:21)
+2023-01-14 23:10:10.486 [info] Extension host terminating: received terminate message from renderer
+2023-01-14 23:10:10.526 [info] Lock '/home/thomasxucpa/.vscode-server/data/User/workspaceStorage/9a8057275842c33f88a86d02417a56c7/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-01-14 23:10:13.115 [error] Error: Stopping the server timed out
+	at /home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:17264:19
+	at async Promise.all (index 0)
+	at async Promise.all (index 7)
+	at async d.Q (/home/thomasxucpa/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/workbench/api/node/extensionHostProcess.js:106:9315)
+2023-01-14 23:10:13.134 [info] Extension host with pid 22864 exiting with code 0

@@ -1,0 +1,108 @@
+2023-01-14 23:23:49.177 [info] Extension host with pid 2697 started
+2023-01-14 23:23:49.218 [info] Lock '/home/thomasxucpa/.vscode-server/data/User/workspaceStorage/c8a2f7af4ed4849c864bf32c5ebe341b/vscode.lock': Lock acquired.
+2023-01-14 23:23:49.371 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-01-14 23:23:49.697 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-14 23:23:50.481 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-01-14 23:23:51.019 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-14 23:23:51.020 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-14 23:23:51.020 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-14 23:23:51.024 [info] Eager extensions activated
+2023-01-14 23:23:51.348 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2023-01-14 23:23:52.255 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8940
+2023-01-14 23:23:54.008 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8940
+2023-01-14 23:24:25.249 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2023-01-14 23:24:27.192 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8947
+2023-01-14 23:25:24.183 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8954
+2023-01-14 23:25:30.218 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9225
+2023-01-14 23:25:35.826 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9230
+2023-01-14 23:27:44.736 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9231
+2023-01-14 23:27:48.825 [error] [golang.go] provider FAILED
+2023-01-14 23:27:48.835 [error] Error: context canceled
+	at handleResponse (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:466:21)
+2023-01-14 23:27:53.857 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9232
+2023-01-14 23:28:00.850 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9232
+2023-01-14 23:28:21.267 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9233
+2023-01-14 23:28:29.758 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9233
+2023-01-14 23:28:49.637 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9233
+2023-01-14 23:29:01.658 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9234
+2023-01-14 23:29:07.254 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9234
+2023-01-14 23:29:14.761 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9234
+2023-01-14 23:29:20.385 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9234
+2023-01-14 23:29:26.924 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9234
+2023-01-14 23:29:34.411 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9235
+2023-01-14 23:29:35.572 [error] [golang.go] provider FAILED
+2023-01-14 23:29:35.572 [error] Error: context canceled
+	at handleResponse (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:466:21)
+2023-01-14 23:29:40.025 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9236
+2023-01-14 23:29:45.663 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9236
+2023-01-14 23:30:44.166 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9237
+2023-01-14 23:31:35.016 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9238
+2023-01-14 23:32:03.805 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9239
+2023-01-14 23:32:09.389 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9240
+2023-01-14 23:32:15.105 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9240
+2023-01-14 23:33:13.496 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9241
+2023-01-14 23:36:45.715 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9242
+2023-01-14 23:38:08.794 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9243
+2023-01-14 23:38:15.371 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9246
+2023-01-14 23:38:32.957 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9247
+2023-01-14 23:39:58.579 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9248
+2023-01-14 23:40:04.172 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9249
+2023-01-14 23:41:36.091 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9250
+2023-01-14 23:45:40.571 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9251
+2023-01-14 23:45:47.815 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9251
+2023-01-14 23:45:53.969 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9251
+2023-01-14 23:45:59.568 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9252
+2023-01-14 23:46:05.226 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9252
+2023-01-14 23:46:10.890 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9252
+2023-01-14 23:46:16.532 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9252
+2023-01-15 02:44:37.442 [error] [golang.go] provider FAILED
+2023-01-15 02:44:37.443 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:466:21)
+2023-01-15 02:44:40.344 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9252
+2023-01-15 03:15:15.348 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9253
+2023-01-15 03:15:30.064 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9253
+2023-01-15 03:15:48.352 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9255
+2023-01-15 03:15:55.594 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9258
+2023-01-15 03:16:01.281 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9260
+2023-01-15 03:16:13.539 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9262
+2023-01-15 03:16:31.935 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9264
+2023-01-15 03:17:19.248 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9265
+2023-01-15 03:17:39.137 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9266
+2023-01-15 03:17:47.823 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9269
+2023-01-15 03:18:26.942 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9274
+2023-01-15 03:18:37.100 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9276
+2023-01-15 03:18:44.828 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9279
+2023-01-15 03:18:50.435 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9279
+2023-01-15 03:18:56.099 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9279
+2023-01-15 03:19:20.865 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9414
+2023-01-15 03:20:36.706 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9998
+2023-01-15 03:20:42.298 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9998
+2023-01-15 03:21:03.834 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9999
+2023-01-15 03:21:17.968 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001
+2023-01-15 03:22:18.895 [error] [golang.go] provider FAILED
+2023-01-15 03:22:18.896 [error] Error: no identifier found
+	at handleResponse (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:466:21)
+2023-01-15 03:22:18.950 [error] [golang.go] provider FAILED
+2023-01-15 03:22:18.950 [error] Error: no identifier found
+	at handleResponse (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:466:21)
+2023-01-15 04:05:16.026 [error] [golang.go] provider FAILED
+2023-01-15 04:05:16.026 [error] Error: context canceled
+	at handleResponse (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:466:21)

@@ -1,0 +1,4 @@
+./allocs_test.go
+./benchmark_test.go
+./panic_test.go
+./testing_test.go

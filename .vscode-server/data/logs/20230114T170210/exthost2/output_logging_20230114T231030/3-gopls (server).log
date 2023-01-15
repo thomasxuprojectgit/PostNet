@@ -1,0 +1,29 @@
+[Info  - 11:15:28 PM] 2023/01/14 23:11:37 go env for /home/thomasxucpa
+(root /home/thomasxucpa/go/src/around)
+(go version go version go1.19.4 linux/amd64)
+(valid build configuration = true)
+(build flags: [])
+GOPRIVATE=
+GONOPROXY=
+GONOSUMDB=
+GO111MODULE=
+GOMOD=/dev/null
+GOFLAGS=
+GOPROXY=https://proxy.golang.org,direct
+GOCACHE=/home/thomasxucpa/.cache/go-build
+GOPATH=/home/thomasxucpa/go
+GOWORK=
+GOSUMDB=sum.golang.org
+GOMODCACHE=/home/thomasxucpa/go/pkg/mod
+GOROOT=/usr/lib/go-1.19
+GOINSECURE=
+
+
+[Info  - 11:15:32 PM] 2023/01/14 23:15:32 go/packages.Load #1
+	snapshot=0
+	directory=file:///home/thomasxucpa
+	query=[around/... builtin]
+	packages=7
+
+[Info  - 11:15:32 PM] 2023/01/14 23:15:32 go/packages.Load #1: updating metadata for 146 packages
+

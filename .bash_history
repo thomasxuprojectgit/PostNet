@@ -30,3 +30,9 @@ sudo /usr/share/elasticsearch/bin/elasticsearch-users useradd thomasxucpa -p 123
 pwd
 cd go/src/around
 go get github.com/olivere/elastic/v7
+sudo systemctl status elasticsearch+
+sudo systemctl status elasticsearch
+cd go/src/around
+go run main.go
+go get github.com/pborman/uuid
+go get cloud.google.com/go/storage
