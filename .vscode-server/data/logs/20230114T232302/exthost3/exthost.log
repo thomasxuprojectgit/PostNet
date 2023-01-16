@@ -106,3 +106,7 @@
 	at processMessageQueue (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4293:13)
 	at Immediate.<anonymous> (/home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0/dist/goMain.js:4279:11)
 	at processImmediate (node:internal/timers:466:21)
+2023-01-15 04:14:10.845 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-01-15 04:16:10.329 [info] Extension host terminating: received terminate message from renderer
+2023-01-15 04:16:10.334 [info] Lock '/home/thomasxucpa/.vscode-server/data/User/workspaceStorage/c8a2f7af4ed4849c864bf32c5ebe341b/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-01-15 04:16:10.425 [info] Extension host with pid 2697 exiting with code 0

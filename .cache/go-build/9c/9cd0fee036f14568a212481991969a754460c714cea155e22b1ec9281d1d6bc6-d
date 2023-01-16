@@ -1,6 +1,0 @@
-./analysis.go
-./buildtag.go
-./doc.go
-./lint.go
-./rules.go
-./structtag.go

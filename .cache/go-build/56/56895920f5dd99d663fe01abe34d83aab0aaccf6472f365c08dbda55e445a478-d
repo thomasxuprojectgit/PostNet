@@ -1,8 +1,0 @@
-./autostart_default.go
-./autostart_posix.go
-./binder.go
-./commandinterceptor.go
-./dialer.go
-./goenv.go
-./lsprpc.go
-./middleware.go

@@ -36,3 +36,5 @@ cd go/src/around
 go run main.go
 go get github.com/pborman/uuid
 go get cloud.google.com/go/storage
+cd go/src/around
+go run main.go

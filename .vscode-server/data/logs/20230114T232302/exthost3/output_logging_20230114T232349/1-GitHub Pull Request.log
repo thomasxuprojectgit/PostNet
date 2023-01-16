@@ -11,3 +11,9 @@
 [Info] Review> no matching pull request metadata found on GitHub for current branch master
 [Info] Repo state for file:///home/thomasxucpa changed.
 [Info] Repo file:///home/thomasxucpa has already been setup.
+[Info] Review> Queuing additional validate state
+[Info] Review> Validating state...
+[Info] No remotes found. The following remotes are missing: origin, upstream
+[Info] No GitHub remotes found
+[Info] Review> no matching pull request metadata found for current branch master
+[Info] Review> no matching pull request metadata found on GitHub for current branch master
