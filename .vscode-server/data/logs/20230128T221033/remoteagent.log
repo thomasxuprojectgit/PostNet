@@ -1,0 +1,24 @@
+2023-01-28 22:10:33.159 [info] Extension host agent started.
+2023-01-28 22:10:33.334 [info] [127.0.0.1][422ea0ce][ManagementConnection] New connection established.
+2023-01-28 22:10:33.364 [info] [127.0.0.1][139f183f][ExtensionHostConnection] New connection established.
+2023-01-28 22:10:33.518 [info] [127.0.0.1][139f183f][ExtensionHostConnection] <22433> Launched Extension Host Process.
+2023-01-28 22:10:35.426 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/thomasxucpa/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateTitle (/home/thomasxucpa/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
+    at Object.call (/home/thomasxucpa/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/thomasxucpa/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/thomasxucpa/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/thomasxucpa/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/thomasxucpa/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/thomasxucpa/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/thomasxucpa/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/thomasxucpa/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-01-28 23:07:06.737 [info] Getting Manifest... ms-azuretools.vscode-docker
+2023-01-28 23:07:06.831 [info] Installing extension: ms-azuretools.vscode-docker
+2023-01-28 23:07:07.621 [info] Extracted extension to /home/thomasxucpa/.vscode-server/extensions/.3f3b1c58-b989-4f3e-99a2-034ddc747b52: ms-azuretools.vscode-docker
+2023-01-28 23:07:07.630 [info] Renamed to /home/thomasxucpa/.vscode-server/extensions/ms-azuretools.vscode-docker-1.23.3
+2023-01-28 23:07:07.646 [info] Extracting completed. ms-azuretools.vscode-docker
+2023-01-28 23:07:07.653 [info] Extension installed successfully: ms-azuretools.vscode-docker

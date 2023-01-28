@@ -5,13 +5,13 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to 127.0.0.1:46589 (IPv4)
-Extension host agent listening on 46589
+Server bound to 127.0.0.1:41621 (IPv4)
+Extension host agent listening on 41621
 
-[22:11:12] Extension host agent started.
-[22:11:12] [127.0.0.1][c079278e][ManagementConnection] New connection established.
-[22:11:12] [127.0.0.1][c4c2df86][ExtensionHostConnection] New connection established.
-[22:11:12] [127.0.0.1][c4c2df86][ExtensionHostConnection] <20960> Launched Extension Host Process.
+[22:10:33] Extension host agent started.
+[22:10:33] [127.0.0.1][422ea0ce][ManagementConnection] New connection established.
+[22:10:33] [127.0.0.1][139f183f][ExtensionHostConnection] New connection established.
+[22:10:33] [127.0.0.1][139f183f][ExtensionHostConnection] <22433> Launched Extension Host Process.
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
   '-c',
   'wget --version > /dev/null\n' +
@@ -23,6 +23,21 @@ Extension host agent listening on 46589
     '\tif [ $? -eq 0 ]\n' +
     '\tthen\n' +
     "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
     '\tfi\n' +
     'fi\n' +
     'exit 0'
@@ -42,7 +57,7 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at process.emit (node:events:526:28)
     at emit (node:internal/child_process:938:14)
     at processTicksAndRejections (node:internal/process/task_queues:84:21)
-[22:11:14] Error [CodeExpectedError]: Could not find pty on pty host
+[22:10:35] Error [CodeExpectedError]: Could not find pty on pty host
     at h.J (/home/thomasxucpa/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
     at h.updateTitle (/home/thomasxucpa/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
     at Object.call (/home/thomasxucpa/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
@@ -56,21 +71,6 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at process.emit (node:events:526:28)
     at emit (node:internal/child_process:938:14)
     at processTicksAndRejections (node:internal/process/task_queues:84:21)
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
-  '-c',
-  'wget --version > /dev/null\n' +
-    'if [ $? -eq 0 ]\n' +
-    'then\n' +
-    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
-    'else\n' +
-    '\tcurl --version > /dev/null\n' +
-    '\tif [ $? -eq 0 ]\n' +
-    '\tthen\n' +
-    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
-    '\tfi\n' +
-    'fi\n' +
-    'exit 0'
-]
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
   '-c',
   'wget --version > /dev/null\n' +
@@ -101,3 +101,9 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     'fi\n' +
     'exit 0'
 ]
+[23:07:06] Getting Manifest... ms-azuretools.vscode-docker
+[23:07:06] Installing extension: ms-azuretools.vscode-docker
+[23:07:07] Extracted extension to /home/thomasxucpa/.vscode-server/extensions/.3f3b1c58-b989-4f3e-99a2-034ddc747b52: ms-azuretools.vscode-docker
+[23:07:07] Renamed to /home/thomasxucpa/.vscode-server/extensions/ms-azuretools.vscode-docker-1.23.3
+[23:07:07] Extracting completed. ms-azuretools.vscode-docker
+[23:07:07] Extension installed successfully: ms-azuretools.vscode-docker

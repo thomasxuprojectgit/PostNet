@@ -1,0 +1,9 @@
+2023-01-24 00:24:00.864 [info] Extension host agent started.
+2023-01-24 00:24:01.047 [info] [127.0.0.1][448675ed][ManagementConnection] New connection established.
+2023-01-24 00:24:01.058 [info] Deleted from disk golang.go /home/thomasxucpa/.vscode-server/extensions/golang.go-0.37.0
+2023-01-24 00:24:01.079 [info] [127.0.0.1][2c071490][ExtensionHostConnection] New connection established.
+2023-01-24 00:24:01.213 [info] [127.0.0.1][2c071490][ExtensionHostConnection] <13821> Launched Extension Host Process.
+2023-01-24 00:24:33.278 [info] [127.0.0.1][448675ed][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-01-24 00:24:33.329 [info] [127.0.0.1][2c071490][ExtensionHostConnection] <13821> Extension Host Process exited with code: 0, signal: null.
+2023-01-24 00:24:33.329 [info] Last EH closed, waiting before shutting down
+2023-01-24 00:29:33.330 [info] Last EH closed, shutting down

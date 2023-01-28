@@ -38,3 +38,19 @@ go get github.com/pborman/uuid
 go get cloud.google.com/go/storage
 cd go/src/around
 go run main.go
+cd go/src/around
+go get github.com/form3tech-oss/jwt-go
+go get github.com/auth0/go-jwt-middleware
+go run main.go
+cd go/src/around
+go run main.go
+get github.com/gorilla/handlers
+go get github.com/gorilla/handlers
+go run main.go
+cd src
+cd go
+cd src
+cd around
+go run main.go
+cd go/src/around
+go run main.go

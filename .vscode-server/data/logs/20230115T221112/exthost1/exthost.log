@@ -580,3 +580,6 @@
 2023-01-16 00:00:25.629 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1427
 2023-01-16 00:00:31.365 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1427
 2023-01-16 00:00:34.832 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1427
+2023-01-16 00:18:19.752 [info] Extension host terminating: received terminate message from renderer
+2023-01-16 00:18:19.757 [info] Lock '/home/thomasxucpa/.vscode-server/data/User/workspaceStorage/c8a2f7af4ed4849c864bf32c5ebe341b/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-01-16 00:18:19.807 [info] Extension host with pid 20960 exiting with code 0

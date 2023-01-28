@@ -1,0 +1,14 @@
+2023-01-24 03:03:35.570 [info] Extension host with pid 16487 started
+2023-01-24 03:03:35.657 [info] Lock '/home/thomasxucpa/.vscode-server/data/User/workspaceStorage/c8a2f7af4ed4849c864bf32c5ebe341b/vscode.lock': Lock acquired.
+2023-01-24 03:03:35.767 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2023-01-24 03:03:35.768 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-24 03:03:36.373 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-01-24 03:03:36.374 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-24 03:03:37.790 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-24 03:03:37.794 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-24 03:03:37.795 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-24 03:03:37.798 [info] Eager extensions activated
+2023-01-24 03:03:38.452 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2023-01-24 03:22:54.062 [info] Extension host terminating: received terminate message from renderer
+2023-01-24 03:22:54.064 [info] Lock '/home/thomasxucpa/.vscode-server/data/User/workspaceStorage/c8a2f7af4ed4849c864bf32c5ebe341b/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-01-24 03:22:54.126 [info] Extension host with pid 16487 exiting with code 0
